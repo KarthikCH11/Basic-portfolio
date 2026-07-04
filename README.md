@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ ECE Engineering Portfolio
+# ⚡ Engineering Portfolio Template
 
-A modern, interactive portfolio website built for Electronics & Communication Engineering — featuring glassmorphism UI, 3D tilt cards, cursor-tracking spotlight, mobile-friendly navigation, and smooth scroll animations.
+A modern, interactive portfolio website template for engineering students and professionals — featuring glassmorphism UI, 3D tilt cards, cursor-tracking spotlight, mobile-friendly navigation, and smooth scroll animations.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -17,7 +17,7 @@ A modern, interactive portfolio website built for Electronics & Communication En
 
 ## 🎯 Overview
 
-A sleek, single-page portfolio template designed to showcase skills, projects, and expertise in **Embedded Systems**, **VLSI Design**, **IoT**, and **Communication Engineering**. Built with aesthetics in mind — no build tools required, just clean HTML/CSS/JS with Tailwind CSS via CDN.
+A sleek, single-page portfolio template designed to showcase your skills, projects, and expertise in your engineering domain. Built with aesthetics in mind — no build tools required, just clean HTML/CSS/JS with Tailwind CSS via CDN.
 
 ## ✨ Features
 
@@ -47,10 +47,10 @@ A sleek, single-page portfolio template designed to showcase skills, projects, a
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ece-portfolio.git
+git clone https://github.com/your-username/your-repo-name.git
 
 # Navigate to the project
-cd ece-portfolio
+cd your-repo-name
 
 # Open in your browser
 start index.html        # Windows
@@ -79,13 +79,16 @@ npx serve .
 
 To make this portfolio your own, open `index.html` and replace the following placeholders:
 
-| Placeholder | Location | Replace With |
-|-------------|----------|--------------|
-| `[Your Name]` | Hero heading, footer | Your full name |
-| `YOURNAME` | Header logo | Your name (uppercase) |
-| `your.email@example.com` | Contact section | Your email address |
+| Placeholder | Where to find it | Replace With |
+|-------------|------------------|--------------|
+| `[Your Name]` | Hero heading, page title, footer copyright | Your full name |
+| `YOURNAME` | Header logo text (before `.ECE`) | Your name in uppercase |
+| `your.email@example.com` | Contact section (link + `mailto:`) | Your email address |
+| `ECE` / `.ECE` | Header logo (`.ECE`), semiconductor chip graphic label, page `<title>`, footer tagline, hero bottom label, contact domains | Your branch abbreviation (e.g., `CSE`, `ME`, `EE`) |
+| `Electronics & Communication Engineering` | Hero kicker badge, about section paragraph, page `<title>` | Your full branch/major name |
+| `Embedded Systems`, `VLSI Design`, `IoT`, etc. | Hero description, about text, skills cards, projects, contact domains card | Your own domain-specific skills, projects, and focus areas |
 
-You can also update the **skills**, **projects**, and **about** section text to match your background.
+You can also update the **color palette**, **project descriptions**, and **professional skills** to match your background.
 
 ### Color Palette
 
@@ -104,12 +107,12 @@ To deploy on **GitHub Pages**:
 1. Push this repo to GitHub
 2. Go to **Settings → Pages**
 3. Under **Source**, select `main` branch and `/ (root)`
-4. Your site will be live at `https://your-username.github.io/ece-portfolio/`
+4. Your site will be live at `https://your-username.github.io/your-repo-name/`
 
 ## 📁 Project Structure
 
 ```
-ece-portfolio/
+your-repo-name/
 ├── index.html          # Complete single-file portfolio
 └── README.md           # Project documentation
 ```
@@ -140,6 +143,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 <div align="center">
 
 **If you found this useful, give it a ⭐!**
-
 
 </div>
